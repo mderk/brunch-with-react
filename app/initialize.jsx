@@ -1,4 +1,5 @@
 var React = require('react');
+var ReactDOM = require('react-dom');
 
 var HelloWorld = React.createClass({
   render: function() {
@@ -6,4 +7,4 @@ var HelloWorld = React.createClass({
   }
 });
 
-React.render(<HelloWorld />, document.getElementById('content'));
+ReactDOM.render(<HelloWorld />, document.getElementById('content'));
